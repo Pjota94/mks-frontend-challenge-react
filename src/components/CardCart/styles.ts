@@ -49,7 +49,7 @@ export const Container = styled.li`
     background: #ffffff;
     border: 0.3px solid #bfbfbf;
     border-radius: 4px;
-    width: 50px;
+    width: 57px;
     height: 19px;
     margin-bottom: 20px;
     display: flex;
@@ -106,7 +106,7 @@ export const Container = styled.li`
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 40px;
+    left: 32px;
   }
 
   .delete:hover {

@@ -2,12 +2,13 @@ import { Container } from "./styles";
 import { IProductCart } from "../../interfaces";
 import { useDispatch } from "react-redux";
 import { removeCard, increase, decrease } from "../../features/productSlice";
+import "animate.css";
 
 const CardCart = ({ id, name, photo, price, amount }: IProductCart) => {
   const dispatch = useDispatch();
 
   return (
-    <Container>
+    <Container className="animate__animated animate__backInLeft">
       <img src={photo} alt="" />
       <p className="name-product">{name}</p>
       <div className="div-auxiliar-mobile">

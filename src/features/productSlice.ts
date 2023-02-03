@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { toast } from "react-hot-toast";
 import { IProductCart } from "../interfaces";
 
 const initialState = {
@@ -23,6 +24,7 @@ const productSlice = createSlice({
         itemsCart!.amount = itemsCart?.amount + 1;
       } else {
         state.currentSale.push({ ...action.payload, amount: 1 });
+        toast.success("Produto adicionado!");
       }
     },
 
@@ -31,6 +33,7 @@ const productSlice = createSlice({
       state.currentSale = state.currentSale.filter(
         (item) => item.id !== itemId
       );
+      toast.error("Produto removido!");
     },
     increase: (state, { payload }) => {
       const itemsCart = state.currentSale.find((item) => item.id === payload);
