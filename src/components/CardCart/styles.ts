@@ -24,8 +24,8 @@ export const Container = styled.li`
     font-size: 13px;
     line-height: 17px;
     color: #2c2c2c;
-    width: 100px;
-    margin-left: 19px;
+    width: 72px;
+    margin-left: 15px;
     color: #2c2c2c;
   }
 
@@ -41,7 +41,8 @@ export const Container = styled.li`
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin-left: 40px;
+    margin-left: 30px;
+    width: 89px;
   }
 
   .div-btns {
@@ -87,14 +88,14 @@ export const Container = styled.li`
 
   .qnt {
     font-weight: 400;
-    font-size: 8px;
+    font-size: 11px;
     line-height: 10px;
     margin-left: 4px;
     margin-right: 4px;
   }
 
   .delete {
-    margin-left: 35px;
+    /* margin-left: 12px; */
     margin-top: -87px;
     width: 18px;
     height: 18px;
@@ -105,7 +106,7 @@ export const Container = styled.li`
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 6px;
+    left: 40px;
   }
 
   .delete:hover {
@@ -135,6 +136,7 @@ export const Container = styled.li`
       margin-left: 196px;
       margin-top: -181px;
       background-color: #ffffff;
+      left: 6px;
     }
 
     .delete > p {
@@ -177,7 +179,7 @@ export const Container = styled.li`
     .div-price {
       background: #373737;
       border-radius: 5px;
-      width: 64px;
+      width: 91px;
       height: 26px;
       display: flex;
       justify-content: center;

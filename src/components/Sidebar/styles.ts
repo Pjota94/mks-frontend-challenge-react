@@ -92,7 +92,7 @@ export const Container = styled.div`
     line-height: 15px;
     color: #ffffff;
     margin-right: 63px;
-    margin-left: 230px;
+    margin-left: 215px;
   }
 
   .btn-buy {
@@ -124,7 +124,7 @@ export const Container = styled.div`
     }
 
     .price-total {
-      margin-left: 86px;
+      margin-left: 69px;
     }
 
     .total {
